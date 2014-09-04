@@ -1,0 +1,10 @@
+{
+  "name": "chatrooms",
+  "version": "0.0.1",
+  "description": "Sample chat server",
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "mime": "^1.2.11",
+    "socket.io": "^1.1.0"
+  }
+}
