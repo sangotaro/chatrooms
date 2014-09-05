@@ -8,7 +8,7 @@ a {
 }
 
 #content {
-  width: 600px;
+  width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -19,7 +19,7 @@ a {
 }
 
 #message {
-  width: 400px;
+  width: 690px;
   height: 300px;
   overflow: auto;
 

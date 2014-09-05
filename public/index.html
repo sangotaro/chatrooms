@@ -10,19 +10,24 @@
     <div id="room"></div>
     <div id="room-list"></div>
     <div id="message"></div>
+
+    <form id="send-form">
+      <input id="send-message">
+      <input id="send-button" type="submit" value="Send">
+
+      <div id="help">
+        Chat commands:
+        <ul>
+          <li>Change nickname: /nick [username]</li>
+          <li>Join/create room: /join [room name]</li>
+        </ul>
+      </div>
+    </form>
   </div>
-  <form id="send-form">
-    <input id="send-message">
-    <input id="send-button" type="submit" value="Send">
 
-    <div id="help">
-      Chat commands:
-      <ul>
-        <li>Change nickname: /nick [username]</li>
-        <li>Join/create room: /join [room name]</li>
-      </ul>
-    </div>
-  </form>
-
+  <script src="http://cdn.socket.io/socket.io-1.1.0.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="./javascripts/chat.js"></script>
+  <script src="./javascripts/chat_ui.js"></script>
 </body>
 </html>
